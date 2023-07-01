@@ -1,0 +1,11 @@
+Layer0
+{
+	shader "code/effects/paniniprojection.shader_c"
+
+	//---- Squeeze ----
+	g_flManualScreenFit "1.0"
+	g_flProjectionIn "0.000"
+
+	//---- Stretch ----
+	g_flProjectionOut "0.500"
+}
